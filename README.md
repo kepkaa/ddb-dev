@@ -1,2 +1,2 @@
 # ddb-dev
-Vencord, themes discord, developer DDB Dev
+https://drive.google.com/drive/folders/1ZPLJVvePSyRYKAmB8abqGmD_FDGwsrfV?usp=drive_link
