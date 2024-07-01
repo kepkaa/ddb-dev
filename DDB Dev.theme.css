@@ -1,0 +1,91 @@
+/**
+ * @name DDB Dev Custom Theme
+ * @author kepkaa
+ * @version 1.0.0
+ * @description Эксклюзивная тема Discord, созданная DDB Dev or kepkaa.
+ */
+
+:root {
+  --main-bg-color: #446655; /* Цвет фона */
+  --main-text-color: #5c0e0e; /* Цвет текста */
+  --accent-color: #4caf50; /* Акцентный цвет */
+  --hover-color: #6d1212; /* Цвет при наведении */
+  --font-family: "Whitney", "Helvetica Neue", Helvetica, Arial, sans-serif; /* Шрифт */
+}
+
+/* Общие стили */
+* {
+  font-family: var(--font-family);
+  color: var(--main-text-color);
+}
+
+.appMount-3lHmkl {
+  background-color: var(--main-bg-color);
+}
+
+/* Основные стили темы */
+.theme-dark {
+  --background-primary: #000000; /* Цвет фона */
+  --text-normal: #7c98e7; /* Цвет текста */
+  --brand-experiment: #1a38a7; /* Цвет акцентов */
+}
+
+/* Стилизация никнейма пользователя */
+.member-username {
+  color: var(--text-normal);
+  transition: color 0.5s ease;
+}
+
+.member-username:hover {
+  color: var(--brand-experiment);
+  text-shadow: 0 0 8px var(--brand-experiment), 0 0 10px var(--brand-experiment),
+    0 0 12px var(--brand-experiment);
+}
+
+/* Стилизация шапки */
+.header-23xsNx {
+  background-color: var(--accent-color);
+}
+
+/* Стилизация списка серверов */
+.guildsWrapper-5TJh6A {
+  background-color: var(--hover-color);
+}
+
+/* Стилизация списка каналов */
+.channels-Ie2l6A {
+  background-color: var(--main-bg-color);
+}
+
+/* Стилизация чата */
+.chat-3bRxxu {
+  background-color: var(--main-bg-color);
+}
+
+/* Стилизация панели пользователя */
+.members-1998pB {
+  background-color: var(--hover-color);
+}
+
+/* Стилизация кнопок */
+.button-38aScr:hover {
+  background-color: var(--hover-color);
+}
+
+/* Дополнительные стили можно добавить здесь */
+
+/* Стилизация никнейма пользователя */
+.member-username {
+  color: var(--text-normal);
+  transition: color 0.5s ease;
+}
+
+.member-username:hover {
+  color: var(--brand-experiment);
+  text-shadow: 0 0 8px var(--brand-experiment), 0 0 10px var(--brand-experiment),
+    0 0 12px var(--brand-experiment);
+}
+
+.member-username:hover {
+  animation: colorShift 3s infinite alternate;
+}
